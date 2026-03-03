@@ -1,0 +1,20 @@
+{
+  "name": "llm-swarm-backend",
+  "version": "1.0.0",
+  "description": "Backend for LLM Swarm Orchestrator",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.13.6",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "sqlite3": "^5.1.7",
+    "ws": "^8.19.0"
+  }
+}

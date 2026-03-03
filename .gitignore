@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+agent/backend/*.log
+agent/frontend.log
+agent/swarm_output.log
+toolbox/toolbox.log
+
+# Environment variables
+.env
+
+# Credentials and sensitive data
+agent/credentials/
+agent/backend/credentials/
+
+# Databases
+*.db
+agent/backend/db/swarm.db
+
+# OS files
+.DS_Store
+Thumbs.db
